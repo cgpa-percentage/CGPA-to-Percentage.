@@ -7,12 +7,12 @@ const TargetGpaPage = () => (
     <SEOHead
       title="Target GPA Calculator — Plan Your Dream CGPA"
       description="Calculate the GPA you need in remaining semesters to achieve your target CGPA. Free Target GPA Calculator with reality check feature."
-      canonical="https://cgpacalculator.com/target-gpa"
+      canonical="https://cgpa-percentage.github.io/target-gpa"
       jsonLd={{
         "@context": "https://schema.org",
         "@type": "WebApplication",
         "name": "Target GPA Calculator",
-        "url": "https://cgpacalculator.com/target-gpa",
+        "url": "https://cgpa-percentage.github.io/target-gpa",
         "description": "Free target GPA calculator to plan your academic future and achieve your dream CGPA.",
         "applicationCategory": "EducationalApplication",
         "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }

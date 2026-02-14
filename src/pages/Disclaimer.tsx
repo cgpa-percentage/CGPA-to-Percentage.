@@ -6,7 +6,7 @@ const Disclaimer = () => (
     <SEOHead
       title="Disclaimer — CGPA Calculator"
       description="Disclaimer for CGPA Calculator. Our calculators provide approximate results using standard formulas. Always verify with your institution."
-      canonical="https://cgpacalculator.com/disclaimer"
+      canonical="https://cgpa-percentage.github.io/disclaimer"
     />
     <article className="max-w-3xl mx-auto">
       <nav aria-label="Breadcrumb" className="text-sm text-muted-foreground mb-6">

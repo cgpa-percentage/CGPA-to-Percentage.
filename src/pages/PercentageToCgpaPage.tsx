@@ -7,12 +7,12 @@ const PercentageToCgpaPage = () => (
     <SEOHead
       title="Percentage to CGPA Converter — CGPA Calculator"
       description="Convert percentage to CGPA instantly with our free CGPA Calculator. Supports 10-point and 4-point scales. Formula: CGPA = Percentage ÷ 9.5."
-      canonical="https://cgpacalculator.com/percentage-to-cgpa"
+      canonical="https://cgpa-percentage.github.io/percentage-to-cgpa"
       jsonLd={{
         "@context": "https://schema.org",
         "@type": "WebApplication",
         "name": "Percentage to CGPA Converter",
-        "url": "https://cgpacalculator.com/percentage-to-cgpa",
+        "url": "https://cgpa-percentage.github.io/percentage-to-cgpa",
         "description": "Free online percentage to CGPA converter supporting 10-point and 4-point scales.",
         "applicationCategory": "EducationalApplication",
         "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }

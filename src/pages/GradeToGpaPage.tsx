@@ -7,12 +7,12 @@ const GradeToGpaPage = () => (
     <SEOHead
       title="Grade to GPA Calculator — Letter Grade GPA Lookup"
       description="Convert letter grades (A, B+, C-) to GPA values instantly. Free Grade to GPA Calculator with full grading scale reference table."
-      canonical="https://cgpacalculator.com/grade-to-gpa"
+      canonical="https://cgpa-percentage.github.io/grade-to-gpa"
       jsonLd={{
         "@context": "https://schema.org",
         "@type": "WebApplication",
         "name": "Grade to GPA Calculator",
-        "url": "https://cgpacalculator.com/grade-to-gpa",
+        "url": "https://cgpa-percentage.github.io/grade-to-gpa",
         "description": "Free letter grade to GPA converter with comprehensive grading scale reference.",
         "applicationCategory": "EducationalApplication",
         "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }

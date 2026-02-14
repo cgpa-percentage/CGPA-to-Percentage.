@@ -7,12 +7,12 @@ const GpaToCgpaPage = () => (
     <SEOHead
       title="GPA to CGPA Calculator — Calculate Cumulative GPA"
       description="Calculate your cumulative GPA (CGPA) from semester GPAs with credit-hour weighting. Free GPA to CGPA Calculator with instant results."
-      canonical="https://cgpacalculator.com/gpa-to-cgpa"
+      canonical="https://cgpa-percentage.github.io/gpa-to-cgpa"
       jsonLd={{
         "@context": "https://schema.org",
         "@type": "WebApplication",
         "name": "GPA to CGPA Calculator",
-        "url": "https://cgpacalculator.com/gpa-to-cgpa",
+        "url": "https://cgpa-percentage.github.io/gpa-to-cgpa",
         "description": "Free credit-weighted GPA to CGPA calculator for aggregating semester GPAs.",
         "applicationCategory": "EducationalApplication",
         "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
