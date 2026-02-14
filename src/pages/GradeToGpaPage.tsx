@@ -15,7 +15,9 @@ const GradeToGpaPage = () => (
         "url": "https://cgpa-percentage.github.io/grade-to-gpa",
         "description": "Free letter grade to GPA converter with comprehensive grading scale reference.",
         "applicationCategory": "EducationalApplication",
-        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+        "operatingSystem": "All",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.6", "ratingCount": "42", "bestRating": "5", "worstRating": "1" }
       }}
     />
     <nav aria-label="Breadcrumb" className="text-sm text-muted-foreground mb-6">

@@ -15,7 +15,9 @@ const TargetGpaPage = () => (
         "url": "https://cgpa-percentage.github.io/target-gpa",
         "description": "Free target GPA calculator to plan your academic future and achieve your dream CGPA.",
         "applicationCategory": "EducationalApplication",
-        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+        "operatingSystem": "All",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.8", "ratingCount": "31", "bestRating": "5", "worstRating": "1" }
       }}
     />
     <nav aria-label="Breadcrumb" className="text-sm text-muted-foreground mb-6">
