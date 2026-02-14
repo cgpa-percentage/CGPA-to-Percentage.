@@ -27,7 +27,7 @@ const GradeToGpa = () => {
           <select
             value={selectedGrade}
             onChange={(e) => setSelectedGrade(e.target.value)}
-            className="glass-input w-full px-4 py-3 text-lg appearance-none cursor-pointer bg-white/5"
+            className="glass-input w-full px-4 py-3 text-lg appearance-none cursor-pointer"
           >
             <option value="" className="bg-background">Choose a grade...</option>
             {Object.keys(gradeMap).map((grade) => (
