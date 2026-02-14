@@ -7,7 +7,7 @@ const Contact = () => (
     <SEOHead
       title="Contact Us — CGPA Calculator"
       description="Get in touch with the CGPA Calculator team. Questions, feedback, or suggestions about our free academic calculators? We'd love to hear from you."
-      canonical="https://cgpacalculator.com/contact"
+      canonical="https://cgpa-percentage.github.io/contact"
     />
     <article className="max-w-3xl mx-auto">
       <nav aria-label="Breadcrumb" className="text-sm text-muted-foreground mb-6">

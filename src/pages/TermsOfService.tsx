@@ -6,7 +6,7 @@ const TermsOfService = () => (
     <SEOHead
       title="Terms of Service — CGPA Calculator"
       description="Terms of Service for CGPA Calculator. Read our terms and conditions for using our free online CGPA, GPA, and percentage calculators."
-      canonical="https://cgpacalculator.com/terms-of-service"
+      canonical="https://cgpa-percentage.github.io/terms-of-service"
     />
     <article className="max-w-3xl mx-auto">
       <nav aria-label="Breadcrumb" className="text-sm text-muted-foreground mb-6">

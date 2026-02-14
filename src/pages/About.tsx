@@ -6,7 +6,7 @@ const About = () => (
     <SEOHead
       title="About Us — CGPA Calculator"
       description="Learn about CGPA Calculator, our mission to provide free, accurate academic calculators for students worldwide. CGPA, GPA, and percentage tools."
-      canonical="https://cgpacalculator.com/about"
+      canonical="https://cgpa-percentage.github.io/about"
     />
     <article className="max-w-3xl mx-auto">
       <nav aria-label="Breadcrumb" className="text-sm text-muted-foreground mb-6">

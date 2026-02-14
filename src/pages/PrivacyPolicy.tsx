@@ -6,7 +6,7 @@ const PrivacyPolicy = () => (
     <SEOHead
       title="Privacy Policy — CGPA Calculator"
       description="Privacy Policy for CGPA Calculator. Learn how we collect, use, and protect your data when using our free online CGPA and GPA calculators."
-      canonical="https://cgpacalculator.com/privacy-policy"
+      canonical="https://cgpa-percentage.github.io/privacy-policy"
     />
     <article className="max-w-3xl mx-auto">
       <nav aria-label="Breadcrumb" className="text-sm text-muted-foreground mb-6">

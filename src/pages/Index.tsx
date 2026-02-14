@@ -36,7 +36,7 @@ const webAppSchema = {
   "@context": "https://schema.org",
   "@type": "WebApplication",
   "name": "CGPA Calculator",
-  "url": "https://cgpacalculator.com",
+  "url": "https://cgpa-percentage.github.io",
   "description": "Free online CGPA Calculator to convert CGPA to percentage, percentage to CGPA, calculate cumulative GPA, look up grade points, and plan your target GPA.",
   "applicationCategory": "EducationalApplication",
   "operatingSystem": "Any",
@@ -51,7 +51,7 @@ const Index = () => {
       <SEOHead
         title="CGPA Calculator — Free CGPA to Percentage Converter Online"
         description="Free CGPA to Percentage converter & CGPA Calculator. Convert CGPA to percentage instantly using standard formulas for 10-point & 4-point scales. 100% free, no signup."
-        canonical="https://cgpacalculator.com/"
+        canonical="https://cgpa-percentage.github.io/"
         jsonLd={combinedSchema}
       />
 
