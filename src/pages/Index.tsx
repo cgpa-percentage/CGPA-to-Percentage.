@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import { Percent, ArrowRightLeft, Layers, GraduationCap, Target, ArrowRight, CheckCircle2, Users, Zap, Shield } from "lucide-react";
 import Layout from "@/components/Layout";
 import SEOHead from "@/components/SEOHead";
+import CgpaToPercentageCalc from "@/components/calculators/CgpaToPercentage";
 
 const tools = [
   { to: "/cgpa-to-percentage", icon: Percent, title: "CGPA to Percentage Converter", desc: "Convert your CGPA to percentage using standard formulas for 10-point and 4-point scales. Essential for university applications." },
@@ -87,6 +88,15 @@ const Index = () => {
               <span className="text-muted-foreground text-xs">{item.sub}</span>
             </motion.div>
           ))}
+        </div>
+      </section>
+
+      {/* CGPA to Percentage Calculator */}
+      <section className="py-16" aria-label="CGPA to Percentage Calculator">
+        <h2 className="text-3xl font-bold tracking-tight text-foreground text-center mb-4">CGPA to Percentage Calculator</h2>
+        <p className="text-center text-muted-foreground mb-8 max-w-xl mx-auto">Use our free CGPA Calculator to instantly convert your CGPA to percentage on 10-point or 4-point scales.</p>
+        <div className="max-w-xl mx-auto">
+          <CgpaToPercentageCalc />
         </div>
       </section>
 
