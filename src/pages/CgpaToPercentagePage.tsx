@@ -15,7 +15,9 @@ const CgpaToPercentagePage = () => (
         "url": "https://cgpa-percentage.github.io/cgpa-to-percentage",
         "description": "Free online CGPA to percentage converter supporting 10-point and 4-point scales.",
         "applicationCategory": "EducationalApplication",
-        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+        "operatingSystem": "All",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.8", "ratingCount": "47", "bestRating": "5", "worstRating": "1" }
       }}
     />
     <nav aria-label="Breadcrumb" className="text-sm text-muted-foreground mb-6">

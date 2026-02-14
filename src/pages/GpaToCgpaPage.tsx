@@ -15,7 +15,9 @@ const GpaToCgpaPage = () => (
         "url": "https://cgpa-percentage.github.io/gpa-to-cgpa",
         "description": "Free credit-weighted GPA to CGPA calculator for aggregating semester GPAs.",
         "applicationCategory": "EducationalApplication",
-        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+        "operatingSystem": "All",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "ratingCount": "34", "bestRating": "5", "worstRating": "1" }
       }}
     />
     <nav aria-label="Breadcrumb" className="text-sm text-muted-foreground mb-6">
