@@ -14,11 +14,12 @@ const tools = [
 ];
 
 const faqs = [
-  { q: "What is a CGPA Calculator?", a: "A CGPA Calculator is a free online tool that helps students compute their Cumulative Grade Point Average. Our CGPA Calculator supports both 4-point and 10-point grading scales and provides instant, accurate results." },
-  { q: "How does the CGPA Calculator convert CGPA to percentage?", a: "Our CGPA Calculator uses the standard formula: Percentage = CGPA × 9.5 for a 10-point scale. For a 4-point scale, the CGPA Calculator uses: Percentage = (CGPA / 4) × 100. For example, 8.5 CGPA × 9.5 = 80.75%." },
-  { q: "What is the difference between GPA and CGPA?", a: "GPA (Grade Point Average) is for a single semester, while CGPA (Cumulative Grade Point Average) is the weighted average across all semesters. Use our CGPA Calculator to compute both accurately." },
-  { q: "Is this CGPA Calculator accurate for my university?", a: "Our CGPA Calculator uses standard conversion formulas widely accepted across universities worldwide. However, some institutions may use slightly different methods. Always verify with your university's grading policy." },
-  { q: "Can the CGPA Calculator help me plan my target GPA?", a: "Yes! The Target GPA feature in our CGPA Calculator lets you input your current CGPA, credits completed, total degree credits, and desired final CGPA to calculate the GPA you need going forward." },
+  { q: "How to convert CGPA to Percentage?", a: "To convert CGPA to percentage on a 10-point scale, multiply your CGPA by 9.5. For example, 8.5 CGPA × 9.5 = 80.75%. On a 4-point scale, use: (CGPA / 4) × 100. Our CGPA to Percentage converter does this instantly." },
+  { q: "What is the CGPA to Percentage formula?", a: "The standard CGPA to Percentage formula approved by UGC is: Percentage = CGPA × 9.5 (for 10-point scale). For the 4-point scale: Percentage = (CGPA / 4) × 100. Use our free CGPA to Percentage calculator for instant results." },
+  { q: "What is a CGPA Calculator?", a: "A CGPA Calculator is a free online tool that helps students convert CGPA to percentage, calculate cumulative GPA, and plan their academic goals. Our CGPA Calculator supports both 4-point and 10-point grading scales." },
+  { q: "What is the difference between GPA and CGPA?", a: "GPA (Grade Point Average) is for a single semester, while CGPA (Cumulative Grade Point Average) is the weighted average across all semesters. Use our CGPA to Percentage converter to translate either into percentage." },
+  { q: "Is the CGPA to Percentage conversion accurate for my university?", a: "Our CGPA to Percentage converter uses standard formulas (CGPA × 9.5) widely accepted across universities worldwide. However, some institutions may use slightly different multipliers. Always verify with your university's grading policy." },
+  { q: "Can I plan my target GPA using this CGPA Calculator?", a: "Yes! The Target GPA feature lets you input your current CGPA, credits completed, total degree credits, and desired final CGPA to calculate the GPA you need. You can then convert the result to percentage using our CGPA to Percentage tool." },
 ];
 
 const faqSchema = {
@@ -48,8 +49,8 @@ const Index = () => {
   return (
     <Layout>
       <SEOHead
-        title="CGPA Calculator — Free Online GPA & Percentage Converter"
-        description="Free online CGPA Calculator to convert CGPA to percentage, percentage to CGPA, calculate cumulative GPA, look up grade points, and plan your target GPA. 100% free, no signup."
+        title="CGPA Calculator — Free CGPA to Percentage Converter Online"
+        description="Free CGPA to Percentage converter & CGPA Calculator. Convert CGPA to percentage instantly using standard formulas for 10-point & 4-point scales. 100% free, no signup."
         canonical="https://cgpacalculator.com/"
         jsonLd={combinedSchema}
       />
@@ -58,10 +59,10 @@ const Index = () => {
       <section className="text-center py-16 md:py-24">
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }}>
           <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight text-foreground leading-tight">
-            Free Online <span className="text-primary">CGPA Calculator</span>
+            Free <span className="text-primary">CGPA to Percentage</span> Converter & CGPA Calculator
           </h1>
           <p className="mt-6 text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            Use our free CGPA Calculator to instantly convert CGPA to percentage, calculate cumulative GPA, look up grade points, and plan your academic future — all in one place.
+            Convert CGPA to percentage instantly with our free CGPA Calculator. Supports 10-point & 4-point grading scales. Also calculate cumulative GPA, look up grade points, and plan your target GPA — all in one place.
           </p>
           <div className="mt-8 flex flex-wrap justify-center gap-4">
             <Link to="/cgpa-to-percentage" className="glow-button px-8 py-3 flex items-center gap-2">
@@ -139,20 +140,21 @@ const Index = () => {
       {/* SEO Content */}
       <section className="py-16" aria-label="About CGPA Calculator">
         <article className="glass-panel p-8 md:p-12">
-          <h2 className="text-2xl font-bold text-foreground mb-6">CGPA Calculator — Your Complete Guide to CGPA, GPA & Percentage</h2>
+          <h2 className="text-2xl font-bold text-foreground mb-6">CGPA to Percentage — Complete Conversion Guide & CGPA Calculator</h2>
           <div className="space-y-4 text-muted-foreground leading-relaxed text-sm">
-            <p>Our <strong className="text-foreground">CGPA Calculator</strong> is the most trusted free online tool for students to compute their Cumulative Grade Point Average (CGPA). Whether you're using a 4.0-point scale common in the United States or a 10-point scale popular in India, this CGPA Calculator handles both with precision.</p>
-            <p><strong className="text-foreground">CGPA to Percentage with Our Calculator:</strong> The CGPA Calculator uses the widely accepted formula: <em>Percentage = CGPA × 9.5</em> for 10-point scales. For 4-point scales, the CGPA Calculator applies: <em>Percentage = (CGPA / 4) × 100</em>. A CGPA of 8.5 translates to 80.75% using our CGPA Calculator.</p>
-            <p><strong className="text-foreground">Why Use Our CGPA Calculator?</strong> Your GPA and CGPA are crucial for graduate school applications, scholarship eligibility, and job applications. Our CGPA Calculator helps you understand exactly where you stand academically and what you need to achieve your goals.</p>
-            <p><strong className="text-foreground">Credit-Weighted CGPA Calculator:</strong> When calculating cumulative GPA across multiple semesters, the CGPA Calculator accounts for credit hours — ensuring courses with more credits appropriately impact your overall CGPA.</p>
-            <p><strong className="text-foreground">Plan Your Academic Future:</strong> The Target GPA feature in our CGPA Calculator lets you determine exactly what GPA you need in remaining semesters to hit your desired cumulative CGPA.</p>
+            <p>Our <strong className="text-foreground">CGPA to Percentage</strong> converter is the most trusted free online tool for students. Whether you're using a 4.0-point scale common in the United States or a 10-point scale popular in India, our CGPA Calculator converts CGPA to percentage with precision.</p>
+            <p><strong className="text-foreground">CGPA to Percentage Formula (10-Point Scale):</strong> The UGC-approved formula is: <em>Percentage = CGPA × 9.5</em>. For example, 8.5 CGPA to percentage = 8.5 × 9.5 = 80.75%. Our CGPA to Percentage calculator applies this formula instantly.</p>
+            <p><strong className="text-foreground">CGPA to Percentage Formula (4-Point Scale):</strong> For the US grading system: <em>Percentage = (CGPA / 4) × 100</em>. A 3.5 CGPA to percentage = (3.5 / 4) × 100 = 87.5%.</p>
+            <p><strong className="text-foreground">Why Convert CGPA to Percentage?</strong> Many universities, employers, and scholarship programs require percentage scores. Our CGPA to Percentage converter helps you instantly translate your CGPA for graduate school applications, job applications, and eligibility checks.</p>
+            <p><strong className="text-foreground">CGPA to Percentage Conversion Table:</strong> Common conversions — 7.0 CGPA = 66.5%, 8.0 CGPA = 76%, 9.0 CGPA = 85.5%, 9.5 CGPA = 90.25%, 10 CGPA = 95%. Use our CGPA Calculator for exact results.</p>
+            <p><strong className="text-foreground">Beyond CGPA to Percentage:</strong> Our CGPA Calculator also offers percentage to CGPA conversion, GPA to CGPA aggregation, grade lookup, and target GPA planning — everything you need in one place.</p>
           </div>
         </article>
       </section>
 
       {/* FAQ */}
       <section className="py-16" aria-label="CGPA Calculator FAQ">
-        <h2 className="text-3xl font-bold tracking-tight text-foreground text-center mb-12">CGPA Calculator — Frequently Asked Questions</h2>
+        <h2 className="text-3xl font-bold tracking-tight text-foreground text-center mb-12">CGPA to Percentage — Frequently Asked Questions</h2>
         <div className="space-y-4 max-w-3xl mx-auto">
           {faqs.map((faq, i) => (
             <motion.div key={i} initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.1 * i }} className="glass-panel p-6">
