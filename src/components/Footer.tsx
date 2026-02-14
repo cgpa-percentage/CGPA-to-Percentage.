@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Calculator } from "lucide-react";
+import { Calculator, Instagram, Linkedin } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -11,9 +11,20 @@ const Footer = () => {
               <Calculator className="text-primary" size={20} />
               <span className="font-bold text-foreground">CGPA <span className="text-primary">Calculator</span></span>
             </div>
-            <p className="text-sm text-muted-foreground leading-relaxed">
+            <p className="text-sm text-muted-foreground leading-relaxed mb-4">
               Free online CGPA, GPA and percentage calculators for students worldwide. Accurate, fast, and easy to use.
             </p>
+            <div className="flex items-center gap-3">
+              <a href="https://instagram.com/zavify" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors" aria-label="Instagram">
+                <Instagram size={18} />
+              </a>
+              <a href="https://x.com/hassan_zaviar" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors" aria-label="X (Twitter)">
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+              </a>
+              <a href="https://www.linkedin.com/in/hassanzaviar/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors" aria-label="LinkedIn">
+                <Linkedin size={18} />
+              </a>
+            </div>
           </div>
 
           <div>
