@@ -20,7 +20,6 @@ const FloatingHeader = () => {
     <header className="fixed top-0 left-0 right-0 z-50">
       <div className="mx-auto max-w-6xl px-4 pt-4">
         <div className="glass-panel px-6 py-3 flex items-center justify-between">
-          {/* Logo */}
           <Link to="/" className="flex items-center gap-2">
             <Calculator className="text-primary" size={24} />
             <span className="text-lg font-bold tracking-tight text-foreground">
@@ -28,7 +27,6 @@ const FloatingHeader = () => {
             </span>
           </Link>
 
-          {/* Desktop Nav */}
           <nav className="hidden lg:flex items-center gap-1">
             <Link
               to="/"
@@ -39,7 +37,6 @@ const FloatingHeader = () => {
               Home
             </Link>
 
-            {/* Tools Dropdown */}
             <div
               className="relative"
               onMouseEnter={() => setToolsOpen(true)}
@@ -67,8 +64,8 @@ const FloatingHeader = () => {
                         to={link.to}
                         className={`block px-4 py-2.5 rounded-xl text-sm transition-all ${
                           location.pathname === link.to
-                            ? "bg-primary/20 text-primary"
-                            : "text-muted-foreground hover:text-foreground hover:bg-white/5"
+                            ? "bg-primary/10 text-primary"
+                            : "text-muted-foreground hover:text-foreground hover:bg-muted/50"
                         }`}
                       >
                         {link.label}
@@ -97,13 +94,11 @@ const FloatingHeader = () => {
             </Link>
           </nav>
 
-          {/* Mobile Toggle */}
           <button onClick={() => setMobileOpen(!mobileOpen)} className="lg:hidden text-foreground p-2">
             {mobileOpen ? <X size={20} /> : <Menu size={20} />}
           </button>
         </div>
 
-        {/* Mobile Menu */}
         <AnimatePresence>
           {mobileOpen && (
             <motion.div
@@ -113,7 +108,7 @@ const FloatingHeader = () => {
               className="glass-panel mt-2 p-4 lg:hidden"
             >
               <nav className="flex flex-col gap-1">
-                <Link to="/" onClick={() => setMobileOpen(false)} className="px-4 py-3 rounded-xl text-sm font-medium text-muted-foreground hover:text-foreground hover:bg-white/5">Home</Link>
+                <Link to="/" onClick={() => setMobileOpen(false)} className="px-4 py-3 rounded-xl text-sm font-medium text-muted-foreground hover:text-foreground hover:bg-muted/50">Home</Link>
                 <div className="px-4 py-2 text-xs uppercase tracking-wider text-muted-foreground/60">Calculators</div>
                 {toolLinks.map((link) => (
                   <Link
@@ -121,15 +116,15 @@ const FloatingHeader = () => {
                     to={link.to}
                     onClick={() => setMobileOpen(false)}
                     className={`px-4 py-3 rounded-xl text-sm transition-all ${
-                      location.pathname === link.to ? "bg-primary/20 text-primary" : "text-muted-foreground hover:text-foreground hover:bg-white/5"
+                      location.pathname === link.to ? "bg-primary/10 text-primary" : "text-muted-foreground hover:text-foreground hover:bg-muted/50"
                     }`}
                   >
                     {link.label}
                   </Link>
                 ))}
-                <div className="border-t border-white/10 mt-2 pt-2">
-                  <Link to="/about" onClick={() => setMobileOpen(false)} className="px-4 py-3 rounded-xl text-sm text-muted-foreground hover:text-foreground hover:bg-white/5 block">About</Link>
-                  <Link to="/contact" onClick={() => setMobileOpen(false)} className="px-4 py-3 rounded-xl text-sm text-muted-foreground hover:text-foreground hover:bg-white/5 block">Contact</Link>
+                <div className="border-t border-border mt-2 pt-2">
+                  <Link to="/about" onClick={() => setMobileOpen(false)} className="px-4 py-3 rounded-xl text-sm text-muted-foreground hover:text-foreground hover:bg-muted/50 block">About</Link>
+                  <Link to="/contact" onClick={() => setMobileOpen(false)} className="px-4 py-3 rounded-xl text-sm text-muted-foreground hover:text-foreground hover:bg-muted/50 block">Contact</Link>
                 </div>
               </nav>
             </motion.div>

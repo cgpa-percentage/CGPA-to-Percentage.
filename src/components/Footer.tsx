@@ -3,10 +3,9 @@ import { Calculator } from "lucide-react";
 
 const Footer = () => {
   return (
-    <footer className="border-t border-white/10 mt-20">
+    <footer className="border-t border-border mt-20 bg-card/60">
       <div className="max-w-6xl mx-auto px-4 py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
-          {/* Brand */}
           <div className="md:col-span-1">
             <div className="flex items-center gap-2 mb-4">
               <Calculator className="text-primary" size={20} />
@@ -17,7 +16,6 @@ const Footer = () => {
             </p>
           </div>
 
-          {/* Calculators */}
           <div>
             <h4 className="font-semibold text-foreground mb-4 text-sm">Calculators</h4>
             <ul className="space-y-2 text-sm">
@@ -29,7 +27,6 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Company */}
           <div>
             <h4 className="font-semibold text-foreground mb-4 text-sm">Company</h4>
             <ul className="space-y-2 text-sm">
@@ -38,7 +35,6 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Legal */}
           <div>
             <h4 className="font-semibold text-foreground mb-4 text-sm">Legal</h4>
             <ul className="space-y-2 text-sm">
@@ -49,7 +45,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="border-t border-white/10 mt-10 pt-6 text-center text-sm text-muted-foreground">
+        <div className="border-t border-border mt-10 pt-6 text-center text-sm text-muted-foreground">
           © {new Date().getFullYear()} CGPA Calculator. All rights reserved.
         </div>
       </div>

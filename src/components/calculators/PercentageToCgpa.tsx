@@ -25,7 +25,7 @@ const PercentageToCgpa = () => {
       <div className="glass-panel p-8 space-y-6">
         <div className="flex items-center gap-4">
           <span className="text-sm text-muted-foreground">Scale:</span>
-          <div className="flex bg-white/5 rounded-xl p-1 border border-white/10">
+          <div className="flex bg-muted/50 rounded-xl p-1 border border-border">
             <button
               onClick={() => { setScale("10"); setPercentage(""); }}
               className={`px-4 py-2 rounded-lg text-sm font-medium transition-all ${

@@ -6,44 +6,44 @@
 
 @layer base {
   :root {
-    --background: 222 47% 5%;
-    --foreground: 210 40% 98%;
+    --background: 220 20% 97%;
+    --foreground: 222 47% 11%;
 
-    --card: 222 47% 8%;
-    --card-foreground: 210 40% 98%;
+    --card: 0 0% 100%;
+    --card-foreground: 222 47% 11%;
 
-    --popover: 222 47% 8%;
-    --popover-foreground: 210 40% 98%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 222 47% 11%;
 
-    --primary: 263 70% 66%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 263 70% 50%;
+    --primary-foreground: 0 0% 100%;
 
     --secondary: 187 94% 43%;
-    --secondary-foreground: 210 40% 98%;
+    --secondary-foreground: 0 0% 100%;
 
-    --muted: 217 33% 17%;
-    --muted-foreground: 215 20% 65%;
+    --muted: 220 14% 92%;
+    --muted-foreground: 220 9% 46%;
 
     --accent: 350 89% 60%;
-    --accent-foreground: 210 40% 98%;
+    --accent-foreground: 0 0% 100%;
 
     --destructive: 350 89% 60%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive-foreground: 0 0% 100%;
 
-    --border: 217 33% 17%;
-    --input: 217 33% 17%;
-    --ring: 263 70% 66%;
+    --border: 220 13% 87%;
+    --input: 220 13% 87%;
+    --ring: 263 70% 50%;
 
     --radius: 0.75rem;
 
-    --sidebar-background: 222 47% 7%;
-    --sidebar-foreground: 215 20% 65%;
-    --sidebar-primary: 263 70% 66%;
-    --sidebar-primary-foreground: 210 40% 98%;
-    --sidebar-accent: 217 33% 17%;
-    --sidebar-accent-foreground: 210 40% 98%;
-    --sidebar-border: 217 33% 17%;
-    --sidebar-ring: 263 70% 66%;
+    --sidebar-background: 0 0% 100%;
+    --sidebar-foreground: 220 9% 46%;
+    --sidebar-primary: 263 70% 50%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 220 14% 92%;
+    --sidebar-accent-foreground: 222 47% 11%;
+    --sidebar-border: 220 13% 87%;
+    --sidebar-ring: 263 70% 50%;
   }
 }
 
@@ -60,17 +60,17 @@
 
 @layer components {
   .glass-panel {
-    @apply bg-white/5 backdrop-blur-xl border border-white/10 rounded-2xl;
+    @apply bg-card/80 backdrop-blur-xl border border-border rounded-2xl shadow-sm;
   }
 
   .glass-input {
-    @apply bg-white/5 backdrop-blur-sm border border-white/10 rounded-xl text-foreground placeholder:text-muted-foreground
-      focus:outline-none focus:ring-2 focus:ring-primary/50 focus:border-primary/30 transition-all duration-300;
+    @apply bg-muted/50 border border-border rounded-xl text-foreground placeholder:text-muted-foreground
+      focus:outline-none focus:ring-2 focus:ring-primary/40 focus:border-primary/40 transition-all duration-300;
   }
 
   .glow-button {
     @apply bg-primary text-primary-foreground rounded-xl font-semibold transition-all duration-300
-      hover:shadow-[0_0_30px_rgba(139,92,246,0.4)] active:scale-95;
+      hover:shadow-[0_0_30px_rgba(124,58,237,0.3)] active:scale-95;
   }
 
   .result-card {
