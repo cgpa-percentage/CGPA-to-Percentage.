@@ -24,7 +24,7 @@ const Contact = () => (
               <Mail className="text-primary mt-1" size={20} />
               <div>
                 <p className="font-semibold text-foreground text-sm">Email</p>
-                <p className="text-muted-foreground text-sm">contact@cgpacalculator.com</p>
+                <a href="mailto:ceozavify@gmail.com" className="text-muted-foreground hover:text-primary text-sm transition-colors">ceozavify@gmail.com</a>
               </div>
             </div>
             <div className="flex items-start gap-3">
