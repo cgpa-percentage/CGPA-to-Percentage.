@@ -51,7 +51,13 @@ const Index = () => {
     <Layout>
       <SEOHead
         title="CGPA Calculator — Free CGPA to Percentage Converter Online"
-        description="Free CGPA to Percentage converter & CGPA Calculator. Convert CGPA to percentage instantly using standard formulas for 10-point & 4-point scales. 100% free, no signup."
+        description="Free <a 
+  href="https://cgpafullform.com/" 
+  target="_blank" 
+  rel="noopener noreferrer"
+>
+  CGPA to Percentage
+</a> converter & CGPA Calculator. Convert CGPA to percentage instantly using standard formulas for 10-point & 4-point scales. 100% free, no signup."
         canonical="https://cgpa-percentage.github.io/"
         jsonLd={combinedSchema}
       />
