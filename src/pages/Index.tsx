@@ -51,13 +51,7 @@ const Index = () => {
     <Layout>
       <SEOHead
         title="CGPA Calculator — Free CGPA to Percentage Converter Online"
-        description="Free <a 
-  href="https://cgpafullform.com/" 
-  target="_blank" 
-  rel="noopener noreferrer"
->
-  CGPA to Percentage
-</a> converter & CGPA Calculator. Convert CGPA to percentage instantly using standard formulas for 10-point & 4-point scales. 100% free, no signup."
+        description="Free CGPA to Percentage converter & CGPA Calculator. Convert CGPA to percentage instantly using standard formulas for 10-point & 4-point scales. 100% free, no signup."
         canonical="https://cgpa-percentage.github.io/"
         jsonLd={combinedSchema}
       />
@@ -66,7 +60,7 @@ const Index = () => {
       <section className="text-center py-16 md:py-24">
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }}>
           <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight text-foreground leading-tight">
-            Free <span className="text-primary">CGPA to Percentage</span> Converter & CGPA Calculator
+            Free <a href="https://cgpafullform.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">CGPA to Percentage</a> Converter & CGPA Calculator
           </h1>
           <p className="mt-6 text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
             Convert CGPA to percentage instantly with our free CGPA Calculator. Supports 10-point & 4-point grading scales. Also calculate cumulative GPA, look up grade points, and plan your target GPA — all in one place.
