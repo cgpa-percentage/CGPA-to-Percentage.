@@ -29,7 +29,7 @@ const CgpaToPercentagePage = () => (
     <article className="glass-panel p-8 md:p-12 mt-12">
       <h2 className="text-2xl font-bold text-foreground mb-4">How to Convert CGPA to Percentage Using Our CGPA Calculator</h2>
       <div className="space-y-4 text-muted-foreground text-sm leading-relaxed">
-        <p>Converting CGPA to percentage is one of the most common academic calculations. Our <strong className="text-foreground">CGPA Calculator</strong> makes this conversion instant and accurate for both 10-point and 4-point grading scales.</p>
+        <p>Converting <a href="https://cgpafullform.com/cgpa-to-percentage" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">CGPA to percentage</a> is one of the most common academic calculations. Our <a href="https://cgpafullform.com/cgpa-calculator" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline"><strong>CGPA Calculator</strong></a> makes this conversion instant and accurate for both 10-point and 4-point grading scales.</p>
         <h3 className="text-lg font-semibold text-foreground">CGPA to Percentage Formula (10-Point Scale)</h3>
         <p>The standard formula used by our CGPA Calculator and approved by UGC: <strong className="text-foreground">Percentage = CGPA × 9.5</strong>. Example: 8.2 CGPA × 9.5 = 77.9%.</p>
         <h3 className="text-lg font-semibold text-foreground">CGPA to Percentage Formula (4-Point Scale)</h3>
