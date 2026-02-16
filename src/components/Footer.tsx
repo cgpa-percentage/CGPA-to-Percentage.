@@ -9,7 +9,7 @@ const Footer = () => {
           <div className="md:col-span-1">
             <div className="flex items-center gap-2 mb-4">
               <Calculator className="text-primary" size={20} />
-              <span className="font-bold text-foreground">CGPA <span className="text-primary">Calculator</span></span>
+              <a href="https://cgpafullform.com/cgpa-calculator" target="_blank" rel="noopener noreferrer" className="font-bold text-foreground hover:text-primary transition-colors">CGPA <span className="text-primary">Calculator</span></a>
             </div>
             <p className="text-sm text-muted-foreground leading-relaxed mb-4">
               Free online CGPA, GPA and percentage calculators for students worldwide. Accurate, fast, and easy to use.
